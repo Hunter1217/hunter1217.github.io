@@ -1,4 +1,33 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #E2D1C3; 
-  opacity: 0.3;
+  font-family: Verdana;
+}
+
+/* 
+Navigation bar styles
+*/
+#nav_bar {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 39, 39);
+  display: flex;
+}
+
+#nav_bar li{
+  float: left;
+}
+
+#nav_bar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+}
+
+#nav_bar li a:hover{
+  background-color: #111111;
 }
