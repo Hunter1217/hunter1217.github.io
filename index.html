@@ -4,22 +4,169 @@
     <title>Portfolio</title>
     <meta charset="UTF-8">
 
-  <link href="css/index.css"
-    type="text/css" rel="stylesheet" />
+    <link href="css/index.css"
+      type="text/css" rel="stylesheet" />
+    <script src="js/index.js"></script>
   </head>
   <body>
+    <div class="strip"></div>
     <ul id="nav_bar">
-      <li><a href="https://hunter1217.github.io/">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact Me</a></li>
+      <li class="nav_link"><a class="nav_single" href="https://hunter1217.github.io/">Home</a></li>
+      <li class="nav_link"><a class="nav_single" href="#about_me">About</a></li>
+      <li class="nav_link"><a class="nav_single" href="#">Resume</a></li>
+      <li class="nav_link"><a class="nav_single" href="#my_projects">Projects</a></li>
+      <li class="nav_link"><a class="nav_single" href="#contact_me">Contact</a></li>
     </ul>
-    <h1>
-      Hunter Ciarabellini
-    </h1>
+    <section id="about_me" class="page_content">
+      <h1 class="headers">About Me</h1>
+      <section id="about_me_content">
+        <section id="about_me_left">
+          <img id="my_picture" src="pictures/placeholder2.jpg" alt="Hunter Ciarabellini" />
+          <h1 class="headers" id="my_name">Hunter Ciarabellini</h1>
+        </section>
+        <section id="about_me_right">
+          <section class="right_child">
+          </section>
+          <section id="right_child">
+            <p>
+              Hello, I am a Software Engineering student at Cal Poly Humboldt with an expected graduation date
+              of December 2026. My focus is on building a strong foundation in software design,
+              artificial intelligence, and full-stack development. Through coursework and my personal
+              projects, I enjoy translating complex requirements into clean, maintainable solutions and designing 
+              scalable software while continuously improving on my technical skill set.
+            </p>
+          </section>
+        </section>
+        </section>
+    </section>
+    <section id="my_projects" class="page_content">
+      <h1 class="headers">My Projects</h1>
+      <ul id="project_content">
+        <li class="project">
+          <h2 class="project_title">Portfolio Website</h2>
+          <section class="image_skills">
+            <img class="project_pic" src="pictures\placeholder.jpg" alt="my_project" />
+            <ul class="skills_used">
+              <li class="skill">HTML</li>
+              <li class="skill">CSS</li>
+              <li class="skill">JS</li>
+            </ul>
+          </section>
+          <p class="project_desc">
+            A custom-built, responsive portfolio website 
+            created using semantic HTML and modern CSS.
+          </p>
+          <a class="go_to_proj_page" href="">Click Here To See More</a>
+        </li>
+        <li class="project">
+          <h2 class="project_title">Connect Four AI</h2>
+          <section class="image_skills">
+            <img class="project_pic" src="pictures\placeholder.jpg" alt="my_project" />
+            <ul class="skills_used">
+              <li class="skill">HTML</li>
+              <li class="skill">CSS</li>
+              <!-- <li class="skill">JS</li> -->
+            </ul>
+          </section>
+          <p class="project_desc">
+            A terminal based connect four game, featuring an AI opponent
+            implemented using the Minimax algorithm with Alpha-Beta Pruning.
+          </p>
+          <a class="go_to_proj_page" href="">Click Here To See More</a>
+        </li>
+        <li class="project">
+          <h2 class="project_title">Mini Unix Shell</h2>
+          <section class="image_skills">
+            <img class="project_pic" src="pictures\placeholder.jpg" alt="my_project" />
+            <ul class="skills_used">
+              <li class="skill">HTML</li>
+              <li class="skill">CSS</li>
+              <!-- <li class="skill">JS</li> -->
+            </ul>
+          </section>
+          <p class="project_desc">
+            A custom-built, responsive portfolio website 
+            created using semantic HTML and modern CSS.
+          </p>
+          <a class="go_to_proj_page" href="">Click Here To See More</a>
+        </li>
+        <li class="project">
+          <h2 class="project_title">Webapps using Databases</h2>
+          <section class="image_skills">
+            <img class="project_pic" src="pictures\placeholder.jpg" alt="my_project" />
+            <ul class="skills_used">
+              <li class="skill">HTML</li>
+              <li class="skill">CSS</li>
+              <!-- <li class="skill">JS</li> -->
+            </ul>
+          </section>
+          <p class="project_desc">
+            A custom-built, responsive portfolio website 
+            created using semantic HTML and modern CSS.
+          </p>
+          <a class="go_to_proj_page" href="">Click Here To See More</a>
+        </li>
+        <li class="project">
+          <h2 class="project_title">Place Holder for Second Row</h2>
+          <section class="image_skills">
+            <img class="project_pic" src="pictures\placeholder.jpg" alt="my_project" />
+            <ul class="skills_used">
+              <li class="skill">HTML</li>
+              <li class="skill">CSS</li>
+              <!-- <li class="skill">JS</li> -->
+            </ul>
+          </section>
+          <p class="project_desc">
+            A custom-built, responsive portfolio website 
+            created using semantic HTML and modern CSS.
+          </p>
+          <a class="go_to_proj_page" href="">Click Here To See More</a>
+        </li>
+        <li class="project">
+          <h2 class="project_title">Place Holder for Second Row</h2>
+          <section class="image_skills">
+            <img class="project_pic" src="pictures\placeholder.jpg" alt="my_project" />
+            <ul class="skills_used">
+              <li class="skill">HTML</li>
+              <li class="skill">CSS</li>
+              <!-- <li class="skill">JS</li> -->
+            </ul>
+          </section>
+          <p class="project_desc">
+            A custom-built, responsive portfolio website 
+            created using semantic HTML and modern CSS.
+          </p>
+          <a class="go_to_proj_page" href="">Click Here To See More</a>
+        </li>
+      </ul>
+    </section>
+    <section class="page_content" id="contact_me">
+      <h1 class="headers">Contact Me</h1>
+      <section id="contact_content">
+        <form id="contact_form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="5c09930c-0230-4bbd-aa7f-214bac59ac2e" />
+          <section class="form_section">
+            <label class="input_header" for="name_input">Name</label>
+            <input id="name_input" class="contact_input" type="text" name="name" required />
+          </section>
+          <section class="form_section">
+            <label class="input_header" for="email_input">Email</label>
+            <input id="email_input" class="contact_input" type="email" name="email" required />
+          </section>
+          <section class="form_section">
+            <label class="input_header" for="message_input">Message</label>
+            <textarea maxlength="380" id="message_input" class="contact_input" name="message" required></textarea>
+          </section>
+          <button id="contact_submit" type="submit">Submit</button>
+        </form>
+      </section>  
+    </section>
     <p>
       
     </p>
   </body>
+  <footer>
+    <div class="strip"></div>
+    <p id="rights">© 2025 Hunter Ciarabellini. All Rights Reserved.</p>
+  </footer>
 </html>
