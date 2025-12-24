@@ -42,6 +42,7 @@ body{
     padding: 2em;
     border: solid 0.3em #4A4A47;
     border-radius: 20px;
+    width: 55%;
 }
 
 #replit_info{

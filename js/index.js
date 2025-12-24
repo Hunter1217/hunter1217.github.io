@@ -32,7 +32,7 @@
 
 window.addEventListener("scroll", () => {
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const on = scrollTop > 400;
+    const on = scrollTop > 80;
 
   // toggle class on the UL
     document.getElementById("home_nav").classList.toggle("active", on);
