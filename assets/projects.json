@@ -18,7 +18,7 @@
     {
         "id": "custom_shell",
         "title": "Custom Unix Shell",
-        "description": "Custom Unix Shell",
+        "description": "I built a custom Unix style shell in C that allows users to run system commands and includes several built in commands like cd, pwd, echo, and exit. The shell reads and parses user input, searches the system PATH to find executable programs, and runs them using child processes. To make the project more engaging, I added a terminal-based animation using ncurses that runs when the shell starts and can be triggered again with a custom command. This project helped me better understand how command-line shells work behind the scenes, including process creation, input handling, and interacting directly with the operating system.",
         "tech": ["C", "Systems Programming", "POSIX Process Control", "PATH resolution", "NCurses", "Dynamic Memory Management"],
         "repl": "https://replit.com/@Hunter787/Custom-Unix-Shell?lite=true",
         "repo": "https://github.com/Hunter1217/Custom-Unix-Shell"
