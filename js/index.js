@@ -35,7 +35,7 @@ window.addEventListener("scroll", () => {
     const on = scrollTop > 400;
 
   // toggle class on the UL
-    document.getElementById("nav_bar").classList.toggle("active", on);
+    document.getElementById("home_nav").classList.toggle("active", on);
 
   // toggle class on each nav link
     document.querySelectorAll(".nav_single").forEach(link => {

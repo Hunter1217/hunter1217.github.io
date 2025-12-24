@@ -1,0 +1,26 @@
+[
+    {
+        "id": "portfolio_website",
+        "title": "Portfolio Website",
+        "description": "Custom Portfolio Website",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "repl": "https://replit.com/@Hunter787/Connect-Four-AI-Minimax-Alpha-Beta-Pruning?lite=true",
+        "repo": "https://github.com/Hunter1217/hunter1217.github.io"
+    },
+    {
+        "id": "connect_ai",
+        "title": "Connect Four game with built in AI Opponent",
+        "description": "Connect Four terminal game with an AI opponent made with the Minimax algorithm with Alpha-Beta pruning",
+        "tech": ["Python", "Numpy", "Algorithms"],
+        "repl": "https://replit.com/@Hunter787/Connect-Four-AI-Minimax-Alpha-Beta-Pruning?embed=true",
+        "repo": "https://github.com/Hunter1217/Connect-Four-AI-Minimax-Alpha-Beta-Pruning"
+    },
+    {
+        "id": "custom_shell",
+        "title": "Custom Unix Shell",
+        "description": "Custom Unix Shell",
+        "tech": ["C", "Systems Programming", "POSIX Process Control", "PATH resolution", "NCurses", "Dynamic Memory Management"],
+        "repl": "https://replit.com/@Hunter787/Custom-Unix-Shell?lite=true",
+        "repo": "https://github.com/Hunter1217/Custom-Unix-Shell"
+    }
+]

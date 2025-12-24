@@ -68,7 +68,7 @@ Navigation bar styles
   isolation: isolate;
 }
 
-#nav_bar.active{
+#home_nav.active{
   background-color: #083A4F;
   opacity: 90%;
 }
@@ -326,6 +326,7 @@ Navigation bar styles
 }
 
 #contact_submit:hover{
+  cursor: pointer;
   background-color: #a7a7a5;
 }
 
@@ -369,8 +370,11 @@ footer{
 */
 
 #resume{
+  display: flex;
+  justify-self: center;
   height: 1000px;
   width: 100%;
+  margin: auto 10em auto 10em;
 }
 
 #resume_nav{
