@@ -10,8 +10,8 @@
     {
         "id": "connect_ai",
         "title": "Connect Four game with built in AI Opponent",
-        "description": "Connect Four terminal game with an AI opponent made with the Minimax algorithm with Alpha-Beta pruning",
-        "tech": ["Python", "Numpy", "Algorithms"],
+        "description": "Built a fully playable Connect Four game in Python using NumPy, featuring a modular and maintainable architecture with clear separation between game logic, user interaction, and AI decision-making. Implemented an AI opponent using a depth-limited Minimax algorithm with Alpha-Beta Pruning, optimized through heuristic move ordering to improve search efficiency. Designed a custom evaluation function to score board states by detecting winning patterns, penalizing opponent threats, and prioritizing strategic center control. Enforced full game rules including move validation, gravity-based piece placement, terminal state detection, and multi-directional win checking, while incorporating logging to analyze pruning behavior and support debugging and performance tuning.",
+        "tech": ["Python", "Numpy", "Minimax with Alpha-Beta Pruning", "Heuristic Evaluation"],
         "repl": "https://replit.com/@Hunter787/Connect-Four-AI-Minimax-Alpha-Beta-Pruning?embed=true",
         "repo": "https://github.com/Hunter1217/Connect-Four-AI-Minimax-Alpha-Beta-Pruning"
     },

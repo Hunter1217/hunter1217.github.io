@@ -1,7 +1,5 @@
 // window.onscroll = function() {scrollFunction()};
 
-
-
 /* Color scheme:
 
   main color for text #083A4F;
@@ -10,7 +8,6 @@
   main background #c7b8a2; 
 
 */
-
 
 // function scrollFunction(){
 //     if(document.body.scrollTop > 50 ||
