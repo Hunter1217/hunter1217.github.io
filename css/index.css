@@ -219,6 +219,7 @@ Navigation bar styles
 .project_pic{
   display: block;
   padding: 1em;
+  margin-left: 0.5em;
   justify-self: center;
   height: 13em;
   width: 13em;
