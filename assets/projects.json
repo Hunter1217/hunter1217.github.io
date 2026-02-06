@@ -4,7 +4,7 @@
         "title": "Portfolio Website",
         "description": "Custom Portfolio Website",
         "tech": ["HTML", "CSS", "JavaScript"],
-        "repl": "https://hunter-1217-githubio--Hunter787.replit.app?lite=true",
+        "repl": "",
         "repo": "https://github.com/Hunter1217/hunter1217.github.io"
     },
     {
@@ -29,6 +29,14 @@
         "description": "Built a custom discord bot, for personal use, that has a variety of commands and features. Currently has to be running on a device in order to work properly because It isn't setup on a server of any sorts. Has music parsing capabilities, where when you enter a specific command followed by the song title, it gets that song from youtube, joins the voice channel in discord you're residing in, and starts playing the desired song. Other features include, sending direct messages, picking a random game from a selected list, ",
         "tech": ["Python", "Discord API", "Youtube API"],
         "repl": "https://replit.com/@Hunter787/Custom-Unix-Shell?lite=true",
-        "repo": "https://github.com/Hunter1217/Custom-Unix-Shell"
+        "repo": "https://github.com/Hunter1217/Slix_Bot"
+    },
+    {
+        "id": "file_neatly",
+        "title": "FileNeatly",
+        "description": "This project is a local file indexing and metadata management system designed to persistently track files across renames and moves using stable filesystem identifiers rather than paths alone. It uses Python and SQLite to store file metadata, including size, timestamps, and semantic labels, enabling fast queries and reliable file identification across application runs. The system is designed with a clear separation between schema definition and runtime data population, following best practices for local persistence. It also lays the groundwork for intelligent file labeling and future integration with LLM-assisted workflows. While the core architecture and database layer are functional, the project is still under active development, with additional features and refinements planned. The focus of the work is on correctness, durability, and extensibility rather than UI polish.",
+        "tech": ["Python", "MCP", "SQLite"],
+        "repl": "",
+        "repo": "https://github.com/Hunter1217/FileNeatly"
     }
 ]
