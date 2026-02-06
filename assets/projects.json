@@ -28,7 +28,7 @@
         "title": "Music playing Discord Bot",
         "description": "Built a custom discord bot, for personal use, that has a variety of commands and features. Currently has to be running on a device in order to work properly because It isn't setup on a server of any sorts. Has music parsing capabilities, where when you enter a specific command followed by the song title, it gets that song from youtube, joins the voice channel in discord you're residing in, and starts playing the desired song. Other features include, sending direct messages, picking a random game from a selected list, ",
         "tech": ["Python", "Discord API", "Youtube API"],
-        "repl": "https://replit.com/@Hunter787/Custom-Unix-Shell?lite=true",
+        "repl": "",
         "repo": "https://github.com/Hunter1217/Slix_Bot"
     },
     {
